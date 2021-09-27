@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Cornmanthe3rd-Plex-Other-html-5.ico" type="image/x-icon">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+        <p>Tente abrir esta página em vários dispositivos para ver as mudanças.</p>
+    <picture>
+        <source media="(min-width: 750px )" srcset="imagens/grande.png" type="image/png">
+        <source media="(min-width: 650px )" srcset="imagens/média.png" type="image/png">
+        <source media="(min-width: 350px)" srcset="imagens/pequena.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexível">
+    </picture>
+    <br>
+    <h1>Vamos aprender a reproduzir os áudios em HTML</h1>
+        <p>Nesta sessão eu aprenderei a reproduzir audios em HTML.</p>
+        <audio 
+            preload="metadata" autoplay controls>
+            <source src="song/Demilitarized Zone (Sting) - Ethan Meixsell.mp3" type="audio.mpeg">
+            <source src="song/Demilitarized Zone (Sting) - Ethan Meixsell.mp3" type="audio.ogg">
+            <source src="song/Demilitarized Zone (Sting) - Ethan Meixsell.mp3" type="audio.wav">
+            <p>Infelizmente o seu navegador não suporta este <a href="song/Demilitarized Zone (Sting) - Ethan Meixsell.mp3"></a> click aqui para baixar o audio> </p>
+            
+
+            
+</html>
